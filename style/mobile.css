@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+  #left-autocomplete {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+  }
+  #right-autocomplete {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+  }
+}

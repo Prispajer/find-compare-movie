@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .tutorial {
   width: 600px;
   text-align: center;
@@ -24,6 +29,7 @@ figure .image img {
 
 .hero {
   margin-bottom: 20px;
+  overflow-y: hidden;
 }
 
 .forms {
