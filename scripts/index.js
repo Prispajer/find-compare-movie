@@ -80,10 +80,10 @@ const runComparison = () => {
     const rightSideValue = parseInt(rightStat.dataset.value);
     if (rightSideValue > leftSideValue) {
       leftStat.classList.remove("is-primary");
-      leftStat.classList.add("is-warning");
+      leftStat.classList.add("is-danger");
     } else if (leftSideValue > rightSideValue) {
       rightStat.classList.remove("is-primary");
-      rightStat.classList.add("is-warning");
+      rightStat.classList.add("is-danger");
     } else {
       rightStat.classList.add("is-primary");
       leftStat.classList.add("is-primary");

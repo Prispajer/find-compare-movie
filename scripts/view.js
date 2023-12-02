@@ -16,7 +16,7 @@ const movieTemplate = (movieDetail) => {
   }, 0);
 
   return `
-     <article class ="media">
+     <article class ="media is-full-mobile">
        <figure class ="media-left>'
           <p class =image">
             <img src="${movieDetail.Poster}"/>
@@ -30,23 +30,23 @@ const movieTemplate = (movieDetail) => {
           </div>
        </div>
      </article>
-     <article data-value ="${awards}"class="notification is-primary">
+     <article data-value ="${awards}"class="notification is-link ">
         <p class ="title">${movieDetail.Awards}</p>
         <p class ="subtittle">Awards</p>
      </article>
-     <article data-value ="${dollars}"class="notification is-primary">
+     <article data-value ="${dollars}"class="notification is-link ">
         <p class ="title">${movieDetail.BoxOffice}</p>
         <p class ="subtittle">Box Office</p>
      </article>
-     <article data-value ="${metascore}"class="notification is-primary">
+     <article data-value ="${metascore}"class="notification is-link ">
         <p class ="title">${movieDetail.Metascore}</p>
         <p class ="subtittle">Metascore</p>
      </article>
-     <article data-value ="${imdbRating}"class="notification is-primary">
+     <article data-value ="${imdbRating}"class="notification is-link ">
         <p class ="title">${movieDetail.imdbRating}</p>
         <p class ="subtittle">IMDB Rating</p>
      </article>
-     <article data-value ="${imdbVotes}"class="notification is-primary">
+     <article data-value ="${imdbVotes}"class="notification is-link ">
         <p class ="title">${movieDetail.imdbVotes}</p>
         <p class ="subtittle">IMDB Votes</p>
      </article>

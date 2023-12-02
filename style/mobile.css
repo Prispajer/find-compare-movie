@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #left-autocomplete {
     display: grid;
     place-items: center;
@@ -8,5 +8,46 @@
     display: grid;
     place-items: center;
     padding: 20px;
+  }
+
+  .hero-body {
+    display: grid;
+    place-items: center;
+  }
+
+  .media-left img {
+    width: 200px; /* Obrazek zajmie 100% szerokości kontenera */
+    height: auto; /* Dostosuj wysokość proporcjonalnie do szerokości */
+  }
+
+  .media-left {
+    width: 200px; /* Obrazek zajmie 100% szerokości kontenera */
+    height: auto; /* Dostosuj wysokość proporcjonalnie do szerokości */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #left-autocomplete {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+  }
+  #right-autocomplete {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+  }
+
+  #left-summary {
+    padding: 20px;
+  }
+
+  #right-summary {
+    padding: 20px;
+  }
+
+  .media-left img {
+    width: 100%; /* Obrazek zajmie 100% szerokości kontenera */
+    height: auto; /* Dostosuj wysokość proporcjonalnie do szerokości */
   }
 }

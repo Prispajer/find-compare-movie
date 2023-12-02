@@ -3,8 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .tutorial {
-  width: 600px;
+  width: 80%;
   text-align: center;
   margin: auto;
 }
@@ -21,6 +30,7 @@ figure .image img {
 
 .notification {
   margin-top: 20px !important;
+  width: 100%;
 }
 
 .title .icon {
@@ -46,4 +56,21 @@ figure .image img {
 .dropdown-item img {
   height: 50px;
   margin-right: 10px;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.content {
+  padding: 0 0 0 20px;
+}
+
+.media-left img {
+  width: 100%; /* Obrazek zajmie 100% szerokości kontenera */
+  height: auto; /* Dostosuj wysokość proporcjonalnie do szerokości */
 }
