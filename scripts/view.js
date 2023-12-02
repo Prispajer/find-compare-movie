@@ -17,8 +17,8 @@ const movieTemplate = (movieDetail) => {
 
   return `
      <article class ="media is-full-mobile">
-       <figure class ="media-left>'
-          <p class =image">
+       <figure class ="media-left">
+          <p class ="image">
             <img src="${movieDetail.Poster}"/>
           </p>
        </figure>
