@@ -42,4 +42,8 @@
   #right-summary {
     padding: 20px;
   }
+
+  .tutorial {
+    width: 90%;
+  }
 }
