@@ -31,23 +31,41 @@ const movieTemplate = (movieDetail) => {
        </div>
      </article>
      <article data-value ="${awards}"class="notification is-link ">
-        <p class ="title">${movieDetail.Awards}</p>
+        <p class ="title">${
+          movieDetail.Awards === "N/A" ? "NOT FOUND IN API" : movieDetail.Awards
+        }</p>
         <p class ="subtittle">Awards</p>
      </article>
      <article data-value ="${dollars}"class="notification is-link ">
-        <p class ="title">${movieDetail.BoxOffice}</p>
+        <p class ="title">${
+          movieDetail.BoxOffice === "N/A"
+            ? "NOT FOUND IN API"
+            : movieDetail.BoxOffice
+        }</p>
         <p class ="subtittle">Box Office</p>
      </article>
      <article data-value ="${metascore}"class="notification is-link ">
-        <p class ="title">${movieDetail.Metascore}</p>
+        <p class ="title">${
+          movieDetail.Metascore === "N/A"
+            ? "NOT FOUND IN API"
+            : movieDetail.Metascore
+        }</p>
         <p class ="subtittle">Metascore</p>
      </article>
      <article data-value ="${imdbRating}"class="notification is-link ">
-        <p class ="title">${movieDetail.imdbRating}</p>
+        <p class ="title">${
+          movieDetail.imdbRating === "N/A"
+            ? "NOT FOUND IN API"
+            : movieDetail.imdbRating
+        }</p>
         <p class ="subtittle">IMDB Rating</p>
      </article>
      <article data-value ="${imdbVotes}"class="notification is-link ">
-        <p class ="title">${movieDetail.imdbVotes}</p>
+        <p class ="title">${
+          movieDetail.imdbVotes === "N/A"
+            ? "NOT FOUND IN API"
+            : movieDetail.imdbVotes
+        }</p>
         <p class ="subtittle">IMDB Votes</p>
      </article>
   `;

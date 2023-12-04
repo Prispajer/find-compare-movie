@@ -23,7 +23,6 @@ const autoCompleteConfig = {
     if (response.data.Error) {
       return [];
     }
-
     return response.data.Search;
   },
 };

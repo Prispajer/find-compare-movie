@@ -20,6 +20,7 @@ const onMovieSelect = async (movie, summaryElement, side) => {
       i: movie.imdbID,
     },
   });
+
   summaryElement.innerHTML = movieTemplate(response.data);
   if (side === "left") {
     leftMovie = response.data;
